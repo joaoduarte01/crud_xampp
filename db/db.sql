@@ -33,3 +33,4 @@ CREATE TABLE emprestimos (
     FOREIGN KEY (id_leitor) REFERENCES leitores(id_leitor),
     CONSTRAINT chk_datas CHECK (data_devolucao IS NULL OR data_devolucao >= data_emprestimo)
 );
+

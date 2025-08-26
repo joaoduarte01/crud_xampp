@@ -11,13 +11,12 @@ a{display:inline-block;margin:8px}
 </style>
 </head>
 <body>
-<h1>Biblioteca - CRUD (PHP + MySQL)</h1>
+<h1>Biblioteca</h1>
 <nav>
 <a href="autores.php">Autores</a>
 <a href="livros.php">Livros</a>
 <a href="leitores.php">Leitores</a>
 <a href="emprestimos.php">Empréstimos</a>
 </nav>
-<p>Use os links acima para gerenciar as entidades da biblioteca.</p>
 </body>
 </html>
